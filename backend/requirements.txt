@@ -1,10 +1,10 @@
 flask
-flask-cors==4.0.1
-flask-sqlalchemy==3.1.1
-transformers==4.41.2
-torch --index-url https://download.pytorch.org/whl/cpu
-torchvision --index-url https://download.pytorch.org/whl/cpu
-Pillow==10.3.0
-timm==0.9.16
-sentencepiece==0.2.0
-gunicorn==22.0.0
+flask-cors
+flask-sqlalchemy
+transformers
+torch
+torchvision
+Pillow
+timm
+sentencepiece
+gunicorn
