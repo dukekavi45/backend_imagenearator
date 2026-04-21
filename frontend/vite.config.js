@@ -1,0 +1,15 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    port: 5173,
+    proxy: {
+      // Proxy API calls to Flask during dev so CORS is never an issue
+      "/generate-caption": "http://localhost:5000",
+      "/history":          "http://localhost:5000",
+      "/health":           "http://localhost:5000",
+    },
+  },
+});
