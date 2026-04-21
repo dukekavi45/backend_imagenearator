@@ -1,10 +1,5 @@
 flask
 flask-cors
 flask-sqlalchemy
-transformers
-torch
-torchvision
-Pillow
-timm
-sentencepiece
+requests
 gunicorn
