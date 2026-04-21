@@ -2,7 +2,7 @@
  * api.js  —  Thin wrapper around the Flask caption API
  */
 
-const BASE = import.meta.env.VITE_API_URL || "";
+const BASE = "/api";
 
 /**
  * Convert a File object → base64 data-URL string
